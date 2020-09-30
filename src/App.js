@@ -15,10 +15,10 @@ const App = ()=>{
     <div>
       <Navbar/>
       <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/services" component={Services}/>
-        <Route exact path="/contact" component={Contact}/>
+        <Route exact path="/testwebsite" component={Home}/>
+        <Route exact path="/testwebsite/about" component={About}/>
+        <Route exact path="/testwebsite/services" component={Services}/>
+        <Route exact path="/testwebsite/contact" component={Contact}/>
         <Redirect to='/' />
       </Switch>
       <Footer/>
